@@ -1,0 +1,80 @@
+.presentation{
+    width: 100%;
+    height: 70vh;
+}
+
+.presentation .Logo{
+    position: absolute;
+    width: 47px;
+    height: 48px;
+    left: 31vh;
+    top: 20%;
+    border-radius: 77px;
+}
+
+.presentation p{
+ 
+    position: absolute;
+    left: 15vh;
+    top: 13%;
+    font-style: normal;
+    font-weight: 900px;
+    font-size: 48px;
+    line-height: 58px;
+
+    color: #FFFFFF;
+
+
+}
+
+.presentation button{
+    position: absolute;
+    width: 150px;
+    height: 40px;
+    left: 15vh;
+    top: 300px;
+
+    background: #FF4F51;
+
+    position: absolute;
+
+    font-size: 18px;
+    padding: 10px;
+   
+    color: #FFFFFF;
+
+}
+
+.presentation button:hover{
+    background: #303d48;
+
+
+}
+
+
+.presentation span{
+    position: absolute;
+    width: 520px;
+    height: 61px;
+    left: 170px;
+    top: 220px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 22px;
+
+    color: #FFFFFF;
+
+}
+
+
+.presentation .ref{
+    position: absolute;
+    width: 274px;
+    height: 321px;
+    right: 6%; 
+    top: 15%;
+    border-radius: 40px;
+}

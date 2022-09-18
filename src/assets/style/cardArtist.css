@@ -1,0 +1,104 @@
+.cardArtist{
+    top: 20vh;
+    left: 50%;
+    transform: translate(-43%, -50%);
+    width: 180vh;
+    height: 40vh;
+    position: relative;
+    background: #1C2329;
+    border-radius: 32px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+.cardArtist p{
+
+    width: 60%;
+    height: 44px;
+    margin-left: 29vh;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+
+}
+.cardArtist .socialMedia{
+    margin-top: 10vh;
+    color: #FF4F51;
+
+}
+
+.cardArtist span{
+
+    position: absolute;
+    width: 977px;
+    height: 66px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-43%, -70%);
+    padding: 10px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+
+.cardArtist img{
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    width: 25vh;
+    border-radius: 32px;
+
+}
+
+.containerArtExample{
+    top: 25vh;
+    left: 50%;
+    transform: translate(-43%, -50%);
+    width: 180vh;
+    height: 40vh;
+    position: relative;
+
+    background: #1C2329;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 100px;
+
+}
+
+.exampleArt{
+    height: 30vh;
+}
+
+.linkSocialMedia{
+    position: absolute;
+    top: 26vh;
+    left: 17%;
+
+}
+
+.linkSocialMedia a img{
+    width: 50px;
+}
+
+.linkSocialMedia a{
+    position: relative;
+    margin-right: 10vh;
+}
