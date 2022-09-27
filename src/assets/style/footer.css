@@ -1,4 +1,6 @@
+
 .footer{
+
     position: absolute;
     background-color: #222c33;
     margin: auto;
@@ -12,7 +14,7 @@
 .footer img{
     position: absolute;
     width: 50px;
-    left: 49%;
+    left: 46%;
     top: 20px;
 
 }
@@ -22,6 +24,8 @@
     top: 20px;
     position: absolute;
     left: 10vh;
+    color: aliceblue;
+    font-size: 18px;
 
 }
 
@@ -30,11 +34,12 @@
     position: absolute;
     width: 100px;
     top: 20px;
-    right: 30vh;
+    right: 34vh;
     display: flex;
     flex-direction: row;
     list-style: none;
     justify-content: space-between;
+    font-size: 20px;
 }
 
 .footer ul li a{

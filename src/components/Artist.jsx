@@ -2,6 +2,7 @@
 import CardArtist from "./CardArtist"
 import listArtists from "./DataArtist"
 import '../assets/style/artist.css'
+    
 
 function Artist() {
     const artists=listArtists;

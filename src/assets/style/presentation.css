@@ -33,7 +33,8 @@
     height: 40px;
     left: 15vh;
     top: 300px;
-
+    border: none;
+    border-radius: 40px;
     background: #FF4F51;
 
     position: absolute;

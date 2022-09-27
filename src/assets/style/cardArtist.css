@@ -1,7 +1,9 @@
+
+
 .cardArtist{
     top: 20vh;
     left: 50%;
-    transform: translate(-43%, -50%);
+    transform: translate(-50%, -50%);
     width: 180vh;
     height: 40vh;
     position: relative;
@@ -10,7 +12,6 @@
     box-sizing: border-box;
     display: flex;
     flex-direction: column;
-
 }
 
 
@@ -43,7 +44,7 @@
     height: 66px;
     top: 50%;
     left: 50%;
-    transform: translate(-43%, -70%);
+    transform: translate(-43%, -95%);
     padding: 10px;
 
     font-family: 'Inter';
@@ -69,17 +70,16 @@
 .containerArtExample{
     top: 25vh;
     left: 50%;
-    transform: translate(-43%, -50%);
+    transform: translate(-50%, -50%);
     width: 180vh;
     height: 40vh;
     position: relative;
-
+    margin-bottom: 10vh;
     background: #1C2329;
     border-radius: 32px;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    margin-bottom: 100px;
 
 }
 

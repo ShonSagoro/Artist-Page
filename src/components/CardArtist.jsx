@@ -4,7 +4,7 @@ import "../assets/style/cardArtist.css"
 
 function CardArtist(props) {
     return(
-        <div>
+        <div className='Card'>
             <div className="cardArtist">
                 <img src={props.profile}></img>
                 <p>{props.name}</p>
@@ -13,15 +13,7 @@ function CardArtist(props) {
                 <div className='linkSocialMedia'>
                     <a href={props.twitterAccount} target='_blank'><img src={LogoTwitter}></img></a>
                     <a href={props.instagramAccount} target='_blank'><img src={LogoInstagram}></img></a>
-                </div>
-                {/* 
-                <a href={props.urlTwitter}><img src={LogoTwitter}></a>
-                preparar CSS
-                <a href={props.urlInstagram}><img src={LogoInstagram}></a>
-
-*/}
-                
-                
+                </div>                
             </div>
             <div className="containerArtExample">   
                 <img src={props.art1} className="exampleArt"></img>
