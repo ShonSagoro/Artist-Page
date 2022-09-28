@@ -1,6 +1,6 @@
 
 import CardArtist from "./CardArtist"
-import listArtists from "./DataArtist"
+import listArtists from "../data/DataArtist"
 import '../assets/style/artist.css'
     
 
